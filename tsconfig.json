@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true,
+    "types": ["node", "@wdio/globals/types", "@wdio/mocha-framework","@wdio/appium-service"],
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "."
+  },
+  "include": ["./tests/**/*.ts", "./pageobjects/**/*.ts", "./wdio.conf.ts"]
+}

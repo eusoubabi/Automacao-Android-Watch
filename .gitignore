@@ -1,0 +1,13 @@
+# Node modules
+node_modules/
+
+# Allure reports
+allure-results/
+allure-report/
+
+# Compiled TypeScript output
+dist/
+
+# Editor configs and OS junk
+.vscode/
+.DS_Store
