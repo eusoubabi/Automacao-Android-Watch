@@ -86,9 +86,14 @@ Inicie o servidor Appium:
 appium
 ````
 ## Comandos
-
+````bash
 [npm run test] roda tudo que está dentro de ./tests/**/*.spec.ts
+
 [npm run test:clean] roda o  fluxo de onboarding-e-login ('Teste do plataforma completa do 0')
+
 [npm run test:normal] roda o fluxo de login ('Teste do plataforma completa com cache')
+
 [npm run report] gera report da allure
+
 [npm run allure] abre o reporte no navegador
+````
