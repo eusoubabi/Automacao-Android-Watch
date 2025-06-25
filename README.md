@@ -2,8 +2,11 @@
 Este projeto contém a automação de testes mobile para o aplicativo Watch Brasil, utilizando as seguintes tecnologias:
 
 -WebdriverIO com Appium
+
 -Mocha como framework de testes
+
 -TypeScript
+
 -Relatórios com Allure
 
 1. Clonando o repositório do GitLab
@@ -64,8 +67,6 @@ Abra o arquivo de configuração de testes:
 Atualize os campos com os dados do seu Android:
 
 ````ts
-Copiar
-Editar
 capabilities: [{
   platformName: 'Android',              // plataforma
   deviceName: 'Android-XYZ',            // nome visível em `adb devices`
@@ -78,7 +79,7 @@ capabilities: [{
 ````
 !!!Não esquecer de trocar o IP (udid) e o deviceName pelo seu!!!!
 
-▶️ Passo 4: Iniciar o Appium e rodar os testes
+5. Iniciar o Appium e rodar os testes
 Inicie o servidor Appium:
 
 ```_bash
